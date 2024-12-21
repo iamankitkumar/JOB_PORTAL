@@ -5,7 +5,7 @@ export const AppContextProvider=(props)=>{
     const value={
 
     }
-    return (<AppContextProvider>
+    return (<AppContextProvider value={value}>
 {props.children}
     </AppContextProvider>)
 }
